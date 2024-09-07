@@ -32,7 +32,7 @@ This Python script listens to keyboard inputs and randomly manipulates them base
   - Runs in the background, continuously listening for key presses and releases until the `ESC` or `END` key is pressed.
 
 ## Installation
-
+All of these operations are done via COMMAND PROMPT (Ran as administrator)
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/repo-name.git
@@ -54,8 +54,6 @@ This Python script listens to keyboard inputs and randomly manipulates them base
 - The script will hide the console window and manipulate key presses based on the current hour.
 - To stop the script, press the `ESC` or `END` key.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
