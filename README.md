@@ -11,7 +11,7 @@ This Python script listens to keyboard inputs and randomly manipulates them base
     - Duplicates key presses with a 7% probability.
     - Blocks key presses with a 7% probability.
   - Outside these hours, key presses pass through normally.
-- **Exit Mechanism:** The script stops when the `ESC` or `END` key is pressed.
+- **Exit Mechanism:** The script stops when the `END` key is pressed.
 
 ## Parameters
 
@@ -26,10 +26,10 @@ This Python script listens to keyboard inputs and randomly manipulates them base
   - Otherwise, allows the key press to pass through.
   
 - **on_release(key):**
-  - If the `ESC` or `END` key is released, stops the keyboard listener.
+  - If the `END` key is released, stops the keyboard listener.
 
 - **Keyboard Listener:**
-  - Runs in the background, continuously listening for key presses and releases until the `ESC` or `END` key is pressed.
+  - Runs in the background, continuously listening for key presses and releases until the `END` key is pressed.
 
 ## Installation
 All of these operations are done via COMMAND PROMPT (Ran as administrator)
@@ -48,7 +48,7 @@ All of these operations are done via COMMAND PROMPT (Ran as administrator)
 ## Usage
 
 - The script will hide the console window and manipulate key presses based on the current hour.
-- To stop the script, press the `ESC` or `END` key.
+- To stop the script, press the `END` key.
 
 
 
