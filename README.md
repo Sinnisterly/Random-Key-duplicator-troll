@@ -33,11 +33,7 @@ This Python script listens to keyboard inputs and randomly manipulates them base
 
 ## Installation
 All of these operations are done via COMMAND PROMPT (Ran as administrator)
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/repo-name.git
-   cd repo-name
-   ```
+1. Clone the repository
 
 2. Install dependencies: (repeat for each)
    ```bash
