@@ -24,8 +24,8 @@ def on_press(key):
         return True  # Allow key press to pass through if not in active hours
 
 def on_release(key):
-    if key == keyboard.Key.esc:
-        return False
+    if key == keyboard.Key.end:
+        break
 
 with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
     listener.join()
